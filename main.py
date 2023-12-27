@@ -9,10 +9,10 @@ import openpyxl
 driver = webdriver.Chrome()
 
 # Load the web page
-driver.get('https://www.educationportal.mp.gov.in/public/search/searchemployee.aspx')
+driver.get('Add the URL Of Website Here')
 
 # Open the Excel file and get combinations
-wb = openpyxl.load_workbook(r'G:\Customers\Freelancer\Scraping Text Data\combinations.xlsx')
+wb = openpyxl.load_workbook(r'G:\Customers\Freelancer\Scraping-Text-Data\combinations.xlsx')
 ws = wb.active
 
 # Create a new Excel workbook
