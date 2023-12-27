@@ -1,4 +1,4 @@
-# Automation Employee Details Scraper
+# Web Scraping Automation for Employee Details
 
 This Python script is designed for web scraping employee details from the Madhya Pradesh Education Portal's employee search page. It utilizes Selenium for web automation, BeautifulSoup for HTML parsing, and OpenPyXL for Excel manipulation.
 
@@ -32,8 +32,13 @@ This Python script is designed for web scraping employee details from the Madhya
 2. Download ChromeDriver and provide the path in the script:
    (webdriver.Chrome('path/to/chromedriver')).
 
+## Note!
+This script is specific to the mentioned web portal structure and may need adjustments for use with other websites.
+Ensure compliance with the website's terms of service and legal regulations when scraping data.
+
+
 ## License
 This project is licensed under the MIT License.
 
-
+Feel free to customize and extend the script according to your specific use case. Contributions and feedback are welcome!
 
